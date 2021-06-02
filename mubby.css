@@ -1,0 +1,37 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    background-image: url(Workspace.png);
+    background-repeat: no-repeat;
+    background-size: 86em;
+    display: inline-block;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.text{
+    
+    font-weight: bold;
+    padding: 20px;
+    font-size: 30px ;
+    
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: 10px solid rgba(0, 0, 0, 0.226); /*rgb(150, 146, 146);*/
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    text-align: center;
+
+}
+.text:hover{
+    background-color: rgba(0, 0, 0, 0.89);
+    box-shadow: 4px 8px 5px rgb(21, 19, 22);
+}
+
+.texta{
+    font-size: 50px;
+}
